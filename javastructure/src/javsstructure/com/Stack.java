@@ -18,7 +18,7 @@ public class Stack {
 			top=top+1;
 			
 		}else {
-			throw new RuntimeException("push stack over flow="+val);			
+			throw new RuntimeException(" master version:push stack over flow="+val);			
 		}
 		
 	}
