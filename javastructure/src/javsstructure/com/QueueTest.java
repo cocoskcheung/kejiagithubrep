@@ -13,7 +13,7 @@ public class QueueTest {
 		queueObj.insert("9");	
 		System.out.println(queueObj.remove());	
 		queueObj.insert("10");
-		System.out.println(queueObj.remove());		
+		System.out.println("master"+queueObj.remove());		
 		System.out.println(queueObj.remove());		
 		System.out.println(queueObj.remove());		
 		//System.out.println(queueObj.remove());		
